@@ -29,15 +29,9 @@ body{
 .square-button{
   border: 1px solid #9793b5;
   background: none;
-  background-color: #d6e3eb;
   font-family: "Lexend Deca", sans-serif;
   height: 120px;
 }
-
-.square .square-button:nth-child(odd){
-  background-color: #e3ebf3;
-}
-
 
 .player-icon{
   width: 20px;
