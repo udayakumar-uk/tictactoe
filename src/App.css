@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lexend+Deca:wght@100..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+
+body{
+  margin: 0;
+  font-family: "Lexend Deca", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  background-color: #ebf9f8;
+}
+
+#root{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.tictac-canvas{
+  max-width: 400px;
+  width: 100%;
+  margin: auto;
+}
+
+.square{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid #9793b5;
+}
+
+.square-button{
+  border: 1px solid #9793b5;
+  background: none;
+  background-color: #d6e3eb;
+  font-family: "Lexend Deca", sans-serif;
+  height: 120px;
+}
+
+.square .square-button:nth-child(odd){
+  background-color: #e3ebf3;
+}
+
+
+.player-icon{
+  width: 20px;
+  vertical-align: middle;
+}
+
+h4{
+  text-align: center;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+
+.restart-btn{
+  border: 0;
+  margin-top: 20px;
+  border-radius: 5px;
+  padding: 15px 20px;
+  font-size: 1.1rem;
+  background-color: #4330af;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.game-over{
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  color: #d31a1a;
+}
